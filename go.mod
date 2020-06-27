@@ -4,16 +4,16 @@ go 1.12
 
 require (
 	github.com/BurntSushi/toml v0.3.1
-	github.com/Qitmeer/qitmeer v0.8.0
-	github.com/briandowns/spinner v1.7.0
+	github.com/Qitmeer/qitmeer v0.9.0-release.0.20200627072455-71cb9fe2583a
+	github.com/briandowns/spinner v1.7.0 // indirect
 	github.com/davecgh/go-spew v1.1.1
 	github.com/deckarep/golang-set v1.7.1
-	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
 	github.com/julienschmidt/httprouter v1.2.0
+	github.com/kr/pretty v0.2.0 // indirect
 	github.com/mattn/go-colorable v0.1.2
 	github.com/peterh/liner v1.1.0
-	github.com/qianlnk/pgbar v0.0.0-20190929032005-46c23acad4ed
+	github.com/qianlnk/pgbar v0.0.0-20190929032005-46c23acad4ed // indirect
 	github.com/qianlnk/to v0.0.0-20180426070425-a52c7fda1751 // indirect
 	github.com/rakyll/statik v0.1.6
 	github.com/samuel/go-socks v0.0.0-20130725190102-f6c5f6a06ef6
@@ -22,6 +22,7 @@ require (
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
 	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
 	golang.org/x/sys v0.0.0-20190507160741-ecd444e8653b // indirect
+	gopkg.in/check.v1 v1.0.0-00010101000000-000000000000 // indirect
 )
 
 replace (
